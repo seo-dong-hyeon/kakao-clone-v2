@@ -7,11 +7,7 @@
     <script src="https://kit.fontawesome.com/c78623eb58.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <title>Chats | Kakao Clone</title>
-    <style>
-        body{
-            background-color: white;
-        }
-    </style>
+
 </head>
 <body>
     <div class="status-bar">
@@ -19,11 +15,17 @@
             <span class="status-bar__clock">13:54</span>
         </div>
         <div class="status-bar__column">
-            <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <i class="fas fa-battery-full"></i>
-            <span class="status-bar__battery-level">100%</span>
+            <i class="fas fa-clock">
+            </i>
+            <i class="fas fa-volume-mute">
+            </i>
+            <i class="fas fa-wifi">
+            </i>
+            <span class="status-bar__battery-level">
+                100%
+            </span>
+            <i class="fas fa-battery-full">
+            </i>
         </div>
     </div>
     <header class="header">
@@ -46,16 +48,21 @@
         <ul class="chats__list">
             <li class="chats_chat chat">
                 <a href="chat.html">
-                    <div class="chat_column">
-                        <img src="img/avatar.jpg" class="chat__avatar g-avatar" width="100px" height="100px">
-                        <div class="chat__content">
-                            <span class="chat__username">Lynn</span>
-                            <span class="chat__preview">Going home</span>
+                    <div class="chats-chat friend friend--lg">
+                        <div class="friend__column">
+                            <img src="img/avatar.jpg" class="m-avatar friend__avatar">
+                            <div class="friend__content">
+                                <span class="friend__name">Lynn</span>
+                                <span class="friend__bottom-text">Going home</span>
+                            </div>
+                        </div> 
+                        <div class="friend__column">
+                            <span class="chat__timestamp">
+                                March 8
+                            </span>
                         </div>
                     </div>
-                    <div class="chat_column">
-                        <span class="chat__timestamp">Yesterday</span>
-                    </div>
+                  
                 </a>
             </li>
         </ul>
@@ -63,15 +70,25 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__list-item">
-                <a href="friends.html" class="nav__list-link"><i class="far fa-user"></i></a>
+                <a href="friends.html" class="nav__list-link">
+                    <i class="far fa-user"></i>
+                </a>
             </li>
             <li class="nav__list-item">
-                <a href="index.html" class="nav__list-link"><i class="fas fa-comment"></i></a>
+                <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
+                    <i class="fas fa-comment"></i>
+                </a>
             </li>
             <li class="nav__list-item">
-                <a href="find.html" class="nav__list-link"><i class="fas fa-search"></i></a>
+                <a href="find.html" class="nav__list-link">
+                    <i class="fas fa-search"></i>
+                </a>
             </li>
-            <li class="nav__list-item"><a href="more.html" class="nav__list-link"><i class="fas fa-ellipsis-h"></i></a>
+            <li class="nav__list-item">
+                <a href="more.html" class="nav__list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
             </li>
         </ul>
     </nav>

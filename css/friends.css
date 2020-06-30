@@ -1,0 +1,24 @@
+/* 아래에 줄이 있고 
+   줄 안쪽에 내용물
+   줄 밑에 바로 다음 div
+.friends .friends__header{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f7f7f7;
+}*/
+
+/* 점선 기준
+   내부 요소는 padding으로
+   외부 요소는 margind으로 */
+.friends .friends__plus{
+    margin: 20px 0px;
+    padding: 20px 0px; 
+    border-top: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.friends__plus .friends__title,
+.friends__list .friends__title{
+    font-size: 14px;
+    opacity: 0.6;
+    margin-bottom: 12px;
+}

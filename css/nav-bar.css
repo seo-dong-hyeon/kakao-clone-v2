@@ -1,0 +1,40 @@
+.nav{
+    position: fixed; /* 스크롤 상황없이 고정 -> width 설정 필요 */
+    width: 100%;        /* width 100% + padding 50 -> 맨 오르쪽 element가 삐져나감 */
+    padding: 20px 50px;
+    bottom: 10px;
+    background-color: #fcfcfc;
+    left: 0px;
+    bottom: 0px; /* 바닥에 붙임 */
+    border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav i{
+    font-size: 20px;
+}
+
+.nav .nav__list-link{
+    position: relative;
+}
+
+/* 카톡 몇개 왔는지 */
+.nav .nav__badge{
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    font-size: 10px;
+    color: white;
+    background-color: #dc5d46;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* hegith의 절반 -> 동그라미로 */
+
+}
